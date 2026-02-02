@@ -1,0 +1,81 @@
+// --- DATA PROJECT ---
+export const projects = [
+  {
+    title: "Kun Fayakun App",
+    desc: "This application is the result of a competition innovation where artificial intelligence can provide positive and negative images.",
+    tech: ["Javascript", "CSS", "HTML"],
+    category: "Web Dev",
+    image: "/kunfayakun.png",
+    github: "https://github.com/ahmadzainulmufid/Lomba_Web-Design",
+    demo: "https://kun-fayakun.vercel.app/",
+  },
+  {
+    title: "Project Clasification Image",
+    desc: "This project contains a deep learning model for image classification using TensorFlow. The model has been converted to TensorFlow Lite (TFLite) and TensorFlow.js (TFJS) formats for use across multiple platforms.",
+    tech: ["Python", "tfjs", "tflite", "notebook"],
+    category: "Machine Learning",
+    image: "catvsdog.png",
+    github:
+      "https://github.com/ahmadzainulmufid/Project-Clasification-Image.git",
+  },
+  {
+    title: "Ejajan",
+    desc: "E-Jajan is an application designed to support schools in providing nutritious meals for students with advanced features such as facial recognition, a top-up system, and real-time connectivity.",
+    tech: ["Kotlin", "Firebase", "ML Kit", "Midtrans", "Google Cloud"],
+    category: "Android",
+    image: "/ejajan.png",
+    github: "https://github.com/ahmadzainulmufid/Ejajan.git",
+  },
+  {
+    title: "Save-Forest App",
+    desc: "This app reflects our commitment to environmental awareness and digital advocacy—turning awareness into action through the power of thoughtful design and technology.",
+    tech: ["Javascript", "CSS", "HTML"],
+    category: "Web Dev",
+    image: "/save-forest.png",
+    github: "https://github.com/ahmadzainulmufid/Save-Forest.git",
+    demo: "https://save-forest.vercel.app/",
+  },
+  {
+    title: "Klasifikasi Clustering Proyek",
+    desc: "This project is about clustering and classifying customer data using Python. It includes data exploration, pre-processing, customer segmentation using K-Means Clustering, and classification based on the segmentation results using Decision Trees and other models.",
+    tech: ["Python", "Clustering", "Classification", "notebook"],
+    category: "Machine Learning",
+    image: "/klasifikasi-clustering.png",
+    github:
+      "https://github.com/ahmadzainulmufid/Klasifikasi_Clustering-Proyek.git",
+  },
+  {
+    title: "Batik Explorer",
+    desc: "Batik Explorer is an application designed to explore information about batik in Indonesia.",
+    tech: ["Kotlin", "Jetpack Compose"],
+    category: "Android",
+    image: "/batik-explorer.png",
+    github: "https://github.com/ahmadzainulmufid/Batik_Explorer.git",
+  },
+  {
+    title: "ConvoInsight App",
+    desc: "This application provides efficiency to users in automating conclusions from important data to obtain decisions to be obtained.",
+    tech: ["TypeScript", "React", "Tailwind CSS", "Vite", "Firebase", "API"],
+    category: "Web Dev",
+    image: "/convoinsight.png",
+    github: "https://github.com/ahmadzainulmufid/ConvoInsight.git",
+    demo: "https://convoinsight.vercel.app/",
+  },
+  {
+    title: "Analisis Sentimen Ulasan Aplikasi Dana",
+    desc: "This project involves a sentiment analysis of user reviews of the DANA (Indonesian Digital Wallet) app using a machine learning approach. Data was collected through scraping from the Google Play Store, followed by labeling, model training, and sentiment classification accuracy evaluation (positive vs. negative).",
+    tech: ["Python", "scrapping", "notebook"],
+    category: "Machine Learning",
+    image: "/analisis-sentimen.png",
+    github:
+      "https://github.com/ahmadzainulmufid/Analisis_Sentimen_Ulasan-Aplikasi-Dana.git",
+  },
+  {
+    title: "Food Apps",
+    desc: "Food Apps is an application designed to explore information about food in Indonesia.",
+    tech: ["Flutter", "Dart"],
+    category: "Android",
+    image: "/food-apps.png",
+    github: "https://github.com/ahmadzainulmufid/food_apps.git",
+  },
+];
