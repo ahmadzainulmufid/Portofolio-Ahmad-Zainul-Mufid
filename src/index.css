@@ -332,17 +332,18 @@ body {
 
 /* --- PERBAIKAN LANDING PAGE (HOME) --- */
 .landing {
-  min-height: 95vh;
+  /* UBAH INI: Gunakan 100vh agar memenuhi layar penuh */
+  min-height: 100vh;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  /* INI KUNCINYA: align-items: center sudah otomatis menaruh di tengah vertikal */
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
-  /* Saya sesuaikan margin-top nya agar lebih pas di tengah secara visual */
-  margin-top: -80px;
+
   color: #e5e7eb;
 }
 
